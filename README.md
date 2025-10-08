@@ -8,7 +8,6 @@
 - [2025年の開発](#2025年)
 - [センサーライブラリ](#センサーライブラリ)
 - [アルゴリズムライブラリ](#アルゴリズムライブラリ)
-- [その他](#その他)
 - [License](#license)
 
 ---
@@ -17,7 +16,7 @@
 
 以下はサンプルです。リンク先（OWNER/REPO）を実際のリポジトリ名に置き換えてください。
 
-### 公開中 ⚙️
+### 公開中
 
 - 外部の方にも使っていただきやすいリポジトリです！
 - Readmeや回路実装などが詳細に記載されているものを選んでいます！
@@ -44,17 +43,34 @@
 | [ICM45686P](https://github.com/NOKOLat/STM32_ICM45686) | STM32HAL I2C/SPI  | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/STM32_ICM45686) |
 | [BM1422AGMV](https://github.com/NOKOLat/STM32_BM1422AGMV) |  STM32HAL I2C  | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/STM32_BM1422AGMV) |
 
-### アルゴリズムライブラリ
-
-| リポジトリ | 説明 | ステータス |
-|---|---|---|
-| [Altitude_estimation](https://github.com/NOKOLat/devtools) | 6軸imu + 気圧を使った高度推定 | ![stars](https://img.shields.io/github/stars/NOKOLat/devtools?style=social) |
-
-### その他
+### アルゴリズム系ライブラリ
 
 | リポジトリ | 説明 | ステータス |
 |---|---|---|
 | [SBUS](https://github.com/NOKOLat/devtools) | SBUS受信用のライブラリ | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/SBUS) |
+| [Altitude_estimation](https://github.com/NOKOLat/devtools) | 6軸imu + 気圧を使った高度推定 | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/devtools?style=social) |
+
+### ドキュメント
+
+| リポジトリ | 説明 | ステータス |
+|---|---|---|
+| [Programming_Documents](https://github.com/NOKOLat/Programming_Documents) | 航空研電装ドキュメント | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/Programming_Documents) |
+| [2025_STM32_Documents](https://github.com/NOKOLat/2025_STM32_Document) | STM32ドキュメント(2025年度版) | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/2025_STM32_Document) |
+| [2026_STM32_Documents](https://github.com/NOKOLat/2026_STM32_Document) | STM32ドキュメント(2026年度版)  | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/2026_STM32_Document) |
+
+### Webページ
+
+| リポジトリ | 説明 | ステータス |
+|---|---|---|
+| [NoKoLAT_website](https://github.com/NOKOLat/NoKoLAT_website) | 航空研のウェブサイト | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/NoKoLAT_website) |
+
+### システムなど
+
+| リポジトリ | 説明 | ステータス |
+|---|---|---|
+| [key-management-system](https://github.com/NOKOLat/key-management-system) | 鍵管理システム | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/key-management-system) |
+
+
 ---
 
 ## License
