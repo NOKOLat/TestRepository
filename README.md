@@ -30,45 +30,88 @@
 - 2025年度の大会や自主制作で使用したコードです！
 - 直近のものはprivateになっている可能性があります
 
-| リポジトリ | 説明 | ステータス |
-|---|---|---|
-| [SkipperW](https://github.com/NOKOLat/2025ziso_SkipperW) | 自操 山茶花 | ![release](https://img.shields.io/github/v/release/NOKOLat/2025ziso_SkipperW) |
-| [PFLIGHT](https://github.com/NOKOLat/PFLIGHT) | マルコプ ulysses | ![release](https://img.shields.io/github/v/release/NOKOLat/PFLIGHT) |
+| リポジトリ | 説明 |
+|---|---|
+| [Cansat_2](https://github.com/NOKOLat/2026_Cansat_Tanaka) | cansat自律 | 
+| [SkipperW](https://github.com/NOKOLat/2025ziso_SkipperW) | 自操 山茶花 | 
+| [PFLIGHT](https://github.com/NOKOLat/PFLIGHT) | マルコプ ulysses | 
+
+### 2024年
+
+- 2024年度の大会や自主制作で使用したコードです！
+
+| リポジトリ | 説明 |
+|---|---|
+| [midblk](https://github.com/NOKOLat/Cansat_Auto_midblk) | cansat自律 | 
+| [PixBee_P4_MultiCopter](https://github.com/NOKOLat/PixBee_P4_MultiCopter) | マルコプ | 
+| [SkipperW](https://github.com/NOKOLat/2024_ziso_SkipperW) | 自操  | 
+| [Ksenos](https://github.com/NOKOLat/ksenos2024) / [Ksenos_fc](https://github.com/NOKOLat/ksenos2024_fc)| 自操 | 
+
+### 2023年
+- 2023年度の大会や自主製作で使用したコードです！
+- 古くてあんまり残っていません
+
+| リポジトリ | 説明 |
+|---|---|
+| [cansat](https://github.com/NOKOLat/2023-cansat) | cansat自律 | 
+
 
 ### センサーライブラリ
 
-| リポジトリ | 説明 | ステータス |
-|---|---|---|
-| [ICM42688P](https://github.com/NOKOLat/STM32_ICM42688P) | STM32HAL I2C/SPI | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/STM32_ICM42688P) |
-| [ICM45686P](https://github.com/NOKOLat/STM32_ICM45686) | STM32HAL I2C/SPI  | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/STM32_ICM45686) |
-| [BM1422AGMV](https://github.com/NOKOLat/STM32_BM1422AGMV) |  STM32HAL I2C  | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/STM32_BM1422AGMV) |
+- 作成したライブラリをまとめています
+- 簡単なものは、サンプルコードのみの実装になっています
+- Arudino環境で使う場合は、公式ライブラリの使用をおすすめします！
+
+| リポジトリ | 説明 | 言語 | 環境 |
+|---|---|---|---|
+| [ICM45686P](https://github.com/NOKOLat/STM32_ICM45686) | 6軸センサーICM45686 STM32向けライブラリ  | C++ |STM32 HAL|
+| [ICM42688P](https://github.com/NOKOLat/STM32_ICM42688P) | 6軸センサーICM42668P STM32向けライブラリ | C++ |STM32 HAL Arudino Wire|
+| [ICM20948](https://github.com/NOKOLat/ICM20948) |  9軸センサーICM20948 STM32向けライブラリ  | C++ |STM32 HAL|
+| [BM1422AGMV](https://github.com/NOKOLat/STM32_BM1422AGMV) |  ３軸地磁気センサーBM1422AGMV STM32向けライブラリ  | C++ | STM32 HAL|
+| [DPS368](https://github.com/NOKOLat/DPS368) |  気圧センサーDPS368 STM32向けライブラリ  | C++ |STM32 HAL|
+| [DPS310](https://github.com/NOKOLat/DPS368) |  気圧センサーDPS310 STM32向けライブラリ  | C++ |STM32 HAL|
+| [BMM350](https://github.com/NOKOLat/BMM350) |  3軸地磁気センサーBMM350のSTM32向けサンプル  | C++ |STM32 HAL|
+| [BMP280](https://github.com/NOKOLat/BMP280) |  気圧センサーBMP280のSTM32向けライブラリ  | C++ |STM32 HAL|
+
 
 ### アルゴリズム系ライブラリ
 
-| リポジトリ | 説明 | ステータス |
+| リポジトリ | 内容 | 環境や言語 | 
 |---|---|---|
-| [SBUS](https://github.com/NOKOLat/devtools) | SBUS受信用のライブラリ | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/SBUS) |
-| [Altitude_estimation](https://github.com/NOKOLat/devtools) | 6軸imu + 気圧を使った高度推定 | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/devtools?style=social) |
+| [SBUS](https://github.com/NOKOLat/devtools) | SBUS受信用のライブラリ | C++|
+| [Altitude_estimation](https://github.com/NOKOLat/devtools) | 6軸imu + 気圧を使った高度推定 | C++|
+| [Magwick](https://github.com/NOKOLat/Madgwick) | Magwickフィルター | C++|
+
+### その他のライブラリ
 
 ### ドキュメント
 
-| リポジトリ | 説明 | ステータス |
-|---|---|---|
-| [Programming_Documents](https://github.com/NOKOLat/Programming_Documents) | 航空研電装ドキュメント | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/Programming_Documents) |
-| [2025_STM32_Documents](https://github.com/NOKOLat/2025_STM32_Document) | STM32ドキュメント(2025年度版) | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/2025_STM32_Document) |
-| [2026_STM32_Documents](https://github.com/NOKOLat/2026_STM32_Document) | STM32ドキュメント(2026年度版)  | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/2026_STM32_Document) |
+- STM32やESP32の開発をする上で便利なドキュメントです
+- 新歓や１年生の育成に利用しています
+
+| リポジトリ | 説明 |
+|---|---|
+| [Programming_Documents](https://github.com/NOKOLat/Programming_Documents) | 航空研電装ドキュメント |
+| [2025_STM32_Documents](https://github.com/NOKOLat/2025_STM32_Document) | STM32旧ドキュメント(2025年度版) | 
+| [2026_STM32_Documents](https://github.com/NOKOLat/2026_STM32_Document) | STM32新ドキュメント(2026年度版)  | 
 
 ### Webページ
 
-| リポジトリ | 説明 | ステータス |
-|---|---|---|
-| [NoKoLAT_website](https://github.com/NOKOLat/NoKoLAT_website) | 航空研のウェブサイト | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/NoKoLAT_website) |
+- Webページなどのリポジトリです
+- 基本的にprivateになっています
+
+| リポジトリ | 説明 |
+|---|---|
+| [NoKoLAT_website](https://github.com/NOKOLat/NoKoLAT_website) | 航空研のウェブサイト |
 
 ### システムなど
 
-| リポジトリ | 説明 | ステータス |
-|---|---|---|
-| [key-management-system](https://github.com/NOKOLat/key-management-system) | 鍵管理システム | ![last commit](https://img.shields.io/github/last-commit/NOKOLat/key-management-system) |
+- 航空研で運用されているシステムです
+- 基本的にprivateになっています
+
+| リポジトリ | 説明 |
+|---|---|
+| [key-management-system](https://github.com/NOKOLat/key-management-system) | 鍵管理システム |
 
 
 ---
